@@ -6,7 +6,7 @@ import { loginSchemaForm } from "@/validations/auth-validation";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { cookies } from "next/headers";
-import { INITIAL_STATE_LOGIN_FORM } from "@/constants/auth.constant";
+import { INITIAL_STATE_LOGIN_FORM } from "@/constants/auth-constant";
 
 export async function login(
   prevState: AuthFormState,
