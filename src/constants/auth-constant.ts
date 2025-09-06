@@ -1,5 +1,3 @@
-import { Value } from "@radix-ui/react-select";
-
 export const INITIAL_LOGIN_FORM = {
   email: "",
   password: "",
@@ -34,6 +32,16 @@ export const INITIAL_STATE_CREATE_USER = {
   errors: {
     email: [],
     password: [],
+    name: [],
+    role: [],
+    avatar_url: [],
+    _form: [],
+  },
+};
+
+export const INITIAL_STATE_UPDATE_USER = {
+  status: "idle",
+  errors: {
     name: [],
     role: [],
     avatar_url: [],
